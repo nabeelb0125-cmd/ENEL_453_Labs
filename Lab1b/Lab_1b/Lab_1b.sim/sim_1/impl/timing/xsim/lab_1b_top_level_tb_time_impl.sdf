@@ -1,0 +1,1751 @@
+(DELAYFILE 
+(SDFVERSION "3.0" )
+(DESIGN "lab_1b_top_level")
+(DATE "Tue Sep  8 11:32:56 2026")
+(VENDOR "XILINX")
+(PROGRAM "Vivado")
+(VERSION "2026.1")
+(DIVIDER /)
+(TIMESCALE 1ps)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE AN1_OBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3299.9:3501.9:3501.9) (3299.9:3501.9:3501.9))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE AN2_OBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3296.2:3498.1:3498.1) (3296.2:3498.1:3498.1))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE AN3_OBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3319.9:3522.0:3522.0) (3319.9:3522.0:3522.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE AN4_OBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3307.3:3509.3:3509.3) (3307.3:3509.3:3509.3))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE CA_OBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3307.7:3509.7:3509.7) (3307.7:3509.7:3509.7))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE CB_OBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3325.9:3528.1:3528.1) (3325.9:3528.1:3528.1))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE CC_OBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3331.9:3534.1:3534.1) (3331.9:3534.1:3534.1))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE CD_OBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3332.3:3534.6:3534.6) (3332.3:3534.6:3534.6))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE CE_OBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3316.8:3518.9:3518.9) (3316.8:3518.9:3518.9))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE CF_OBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3301.4:3503.4:3503.4) (3301.4:3503.4:3503.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE CG_OBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3328.2:3530.5:3530.5) (3328.2:3530.5:3530.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE DP_OBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3294.6:3496.5:3496.5) (3294.6:3496.5:3496.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT4")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_MUX/time_digit)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/AN1_OBUF_inst_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (95.0:118.0:118.0) (95.0:118.0:118.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/AN2_OBUF_inst_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/AN3_OBUF_inst_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (120.0:148.0:148.0) (120.0:148.0:148.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/AN4_OBUF_inst_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT4")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I3 O (122.0:152.0:152.0) (122.0:152.0:152.0))
+      (IOPATH I2 O (122.0:152.0:152.0) (122.0:152.0:152.0))
+      (IOPATH I1 O (122.0:152.0:152.0) (122.0:152.0:152.0))
+      (IOPATH I0 O (121.0:150.0:150.0) (121.0:150.0:150.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT6")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_2)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I5 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I4 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT6")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_3)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I5 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I4 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT6")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_4)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I5 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I4 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT6")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_5)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I5 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I4 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT4")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_6)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I3 O (121.0:150.0:150.0) (121.0:150.0:150.0))
+      (IOPATH I2 O (120.0:148.0:148.0) (120.0:148.0:148.0))
+      (IOPATH I1 O (118.0:146.0:146.0) (118.0:146.0:146.0))
+      (IOPATH I0 O (121.0:150.0:150.0) (121.0:150.0:150.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT4")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_7)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT4")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_8)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT4")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_9)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT4")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CB_OBUF_inst_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT6")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CB_OBUF_inst_i_2)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I5 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I4 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT5")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CC_OBUF_inst_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I4 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT5")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CC_OBUF_inst_i_2)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I4 O (122.0:152.0:152.0) (122.0:152.0:152.0))
+      (IOPATH I3 O (121.0:150.0:150.0) (121.0:150.0:150.0))
+      (IOPATH I2 O (121.0:150.0:150.0) (121.0:150.0:150.0))
+      (IOPATH I1 O (122.0:152.0:152.0) (122.0:152.0:152.0))
+      (IOPATH I0 O (95.0:118.0:118.0) (95.0:118.0:118.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT4")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CD_OBUF_inst_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I3 O (121.0:150.0:150.0) (121.0:150.0:150.0))
+      (IOPATH I2 O (122.0:152.0:152.0) (122.0:152.0:152.0))
+      (IOPATH I1 O (121.0:150.0:150.0) (121.0:150.0:150.0))
+      (IOPATH I0 O (122.0:152.0:152.0) (122.0:152.0:152.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT5")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CE_OBUF_inst_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I4 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT5")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CE_OBUF_inst_i_2)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I4 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT4")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CF_OBUF_inst_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT5")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CG_OBUF_inst_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I4 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count\[0\]_i_2)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[0\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "CARRY4")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[0\]_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH CYINIT O[0] (385.0:482.0:482.0) (385.0:482.0:482.0))
+      (IOPATH S[0] O[0] (170.0:223.0:223.0) (170.0:223.0:223.0))
+      (IOPATH S[1] O[1] (156.0:205.0:205.0) (156.0:205.0:205.0))
+      (IOPATH S[0] O[1] (304.0:400.0:400.0) (304.0:400.0:400.0))
+      (IOPATH CYINIT O[1] (482.0:598.0:598.0) (482.0:598.0:598.0))
+      (IOPATH DI[0] O[1] (328.0:407.0:407.0) (328.0:407.0:407.0))
+      (IOPATH S[2] O[2] (171.0:226.0:226.0) (171.0:226.0:226.0))
+      (IOPATH S[1] O[2] (424.0:558.0:558.0) (424.0:558.0:558.0))
+      (IOPATH S[0] O[2] (398.0:523.0:523.0) (398.0:523.0:523.0))
+      (IOPATH DI[1] O[2] (431.0:537.0:537.0) (431.0:537.0:537.0))
+      (IOPATH DI[0] O[2] (448.0:556.0:556.0) (448.0:556.0:556.0))
+      (IOPATH CYINIT O[2] (468.0:584.0:584.0) (468.0:584.0:584.0))
+      (IOPATH S[3] O[3] (172.0:227.0:227.0) (172.0:227.0:227.0))
+      (IOPATH S[2] O[3] (251.0:330.0:330.0) (251.0:330.0:330.0))
+      (IOPATH S[1] O[3] (470.0:618.0:618.0) (470.0:618.0:618.0))
+      (IOPATH S[0] O[3] (442.0:582.0:582.0) (442.0:582.0:582.0))
+      (IOPATH DI[2] O[3] (353.0:439.0:439.0) (353.0:439.0:439.0))
+      (IOPATH DI[1] O[3] (481.0:596.0:596.0) (481.0:596.0:596.0))
+      (IOPATH DI[0] O[3] (496.0:615.0:615.0) (496.0:615.0:615.0))
+      (IOPATH CYINIT O[3] (516.0:642.0:642.0) (516.0:642.0:642.0))
+      (IOPATH S[3] CO[3] (289.0:380.0:380.0) (289.0:380.0:380.0))
+      (IOPATH S[2] CO[3] (286.0:376.0:376.0) (286.0:376.0:376.0))
+      (IOPATH S[1] CO[3] (401.0:528.0:528.0) (401.0:528.0:528.0))
+      (IOPATH S[0] CO[3] (386.0:508.0:508.0) (386.0:508.0:508.0))
+      (IOPATH DI[3] CO[3] (310.0:385.0:385.0) (310.0:385.0:385.0))
+      (IOPATH DI[2] CO[3] (321.0:398.0:398.0) (321.0:398.0:398.0))
+      (IOPATH DI[1] CO[3] (409.0:507.0:507.0) (409.0:507.0:507.0))
+      (IOPATH DI[0] CO[3] (424.0:526.0:526.0) (424.0:526.0:526.0))
+      (IOPATH CYINIT CO[3] (467.0:580.0:580.0) (467.0:580.0:580.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[10\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[11\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[12\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "CARRY4")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[12\]_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH CI O[0] (150.0:223.0:223.0) (150.0:223.0:223.0))
+      (IOPATH S[0] O[0] (170.0:223.0:223.0) (170.0:223.0:223.0))
+      (IOPATH S[1] O[1] (156.0:205.0:205.0) (156.0:205.0:205.0))
+      (IOPATH S[0] O[1] (304.0:400.0:400.0) (304.0:400.0:400.0))
+      (IOPATH CI O[1] (269.0:334.0:334.0) (269.0:334.0:334.0))
+      (IOPATH DI[0] O[1] (328.0:407.0:407.0) (328.0:407.0:407.0))
+      (IOPATH S[2] O[2] (171.0:226.0:226.0) (171.0:226.0:226.0))
+      (IOPATH S[1] O[2] (424.0:558.0:558.0) (424.0:558.0:558.0))
+      (IOPATH S[0] O[2] (398.0:523.0:523.0) (398.0:523.0:523.0))
+      (IOPATH DI[1] O[2] (431.0:537.0:537.0) (431.0:537.0:537.0))
+      (IOPATH DI[0] O[2] (448.0:556.0:556.0) (448.0:556.0:556.0))
+      (IOPATH CI O[2] (192.0:239.0:239.0) (192.0:239.0:239.0))
+      (IOPATH S[3] O[3] (172.0:227.0:227.0) (172.0:227.0:227.0))
+      (IOPATH S[2] O[3] (251.0:330.0:330.0) (251.0:330.0:330.0))
+      (IOPATH S[1] O[3] (470.0:618.0:618.0) (470.0:618.0:618.0))
+      (IOPATH S[0] O[3] (442.0:582.0:582.0) (442.0:582.0:582.0))
+      (IOPATH DI[2] O[3] (353.0:439.0:439.0) (353.0:439.0:439.0))
+      (IOPATH DI[1] O[3] (481.0:596.0:596.0) (481.0:596.0:596.0))
+      (IOPATH DI[0] O[3] (496.0:615.0:615.0) (496.0:615.0:615.0))
+      (IOPATH CI O[3] (250.0:313.0:313.0) (250.0:313.0:313.0))
+      (IOPATH S[3] CO[3] (289.0:380.0:380.0) (289.0:380.0:380.0))
+      (IOPATH S[2] CO[3] (286.0:376.0:376.0) (286.0:376.0:376.0))
+      (IOPATH S[1] CO[3] (401.0:528.0:528.0) (401.0:528.0:528.0))
+      (IOPATH S[0] CO[3] (386.0:508.0:508.0) (386.0:508.0:508.0))
+      (IOPATH DI[3] CO[3] (310.0:385.0:385.0) (310.0:385.0:385.0))
+      (IOPATH DI[2] CO[3] (321.0:398.0:398.0) (321.0:398.0:398.0))
+      (IOPATH DI[1] CO[3] (409.0:507.0:507.0) (409.0:507.0:507.0))
+      (IOPATH DI[0] CO[3] (424.0:526.0:526.0) (424.0:526.0:526.0))
+      (IOPATH CI CO[3] (92.0:114.0:114.0) (92.0:114.0:114.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[13\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[14\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[15\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[16\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "CARRY4")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[16\]_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH CI O[0] (150.0:223.0:223.0) (150.0:223.0:223.0))
+      (IOPATH S[0] O[0] (170.0:223.0:223.0) (170.0:223.0:223.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[1\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[2\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[3\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[4\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "CARRY4")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[4\]_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH CI O[0] (150.0:223.0:223.0) (150.0:223.0:223.0))
+      (IOPATH S[0] O[0] (170.0:223.0:223.0) (170.0:223.0:223.0))
+      (IOPATH S[1] O[1] (156.0:205.0:205.0) (156.0:205.0:205.0))
+      (IOPATH S[0] O[1] (304.0:400.0:400.0) (304.0:400.0:400.0))
+      (IOPATH CI O[1] (269.0:334.0:334.0) (269.0:334.0:334.0))
+      (IOPATH DI[0] O[1] (328.0:407.0:407.0) (328.0:407.0:407.0))
+      (IOPATH S[2] O[2] (171.0:226.0:226.0) (171.0:226.0:226.0))
+      (IOPATH S[1] O[2] (424.0:558.0:558.0) (424.0:558.0:558.0))
+      (IOPATH S[0] O[2] (398.0:523.0:523.0) (398.0:523.0:523.0))
+      (IOPATH DI[1] O[2] (431.0:537.0:537.0) (431.0:537.0:537.0))
+      (IOPATH DI[0] O[2] (448.0:556.0:556.0) (448.0:556.0:556.0))
+      (IOPATH CI O[2] (192.0:239.0:239.0) (192.0:239.0:239.0))
+      (IOPATH S[3] O[3] (172.0:227.0:227.0) (172.0:227.0:227.0))
+      (IOPATH S[2] O[3] (251.0:330.0:330.0) (251.0:330.0:330.0))
+      (IOPATH S[1] O[3] (470.0:618.0:618.0) (470.0:618.0:618.0))
+      (IOPATH S[0] O[3] (442.0:582.0:582.0) (442.0:582.0:582.0))
+      (IOPATH DI[2] O[3] (353.0:439.0:439.0) (353.0:439.0:439.0))
+      (IOPATH DI[1] O[3] (481.0:596.0:596.0) (481.0:596.0:596.0))
+      (IOPATH DI[0] O[3] (496.0:615.0:615.0) (496.0:615.0:615.0))
+      (IOPATH CI O[3] (250.0:313.0:313.0) (250.0:313.0:313.0))
+      (IOPATH S[3] CO[3] (289.0:380.0:380.0) (289.0:380.0:380.0))
+      (IOPATH S[2] CO[3] (286.0:376.0:376.0) (286.0:376.0:376.0))
+      (IOPATH S[1] CO[3] (401.0:528.0:528.0) (401.0:528.0:528.0))
+      (IOPATH S[0] CO[3] (386.0:508.0:508.0) (386.0:508.0:508.0))
+      (IOPATH DI[3] CO[3] (310.0:385.0:385.0) (310.0:385.0:385.0))
+      (IOPATH DI[2] CO[3] (321.0:398.0:398.0) (321.0:398.0:398.0))
+      (IOPATH DI[1] CO[3] (409.0:507.0:507.0) (409.0:507.0:507.0))
+      (IOPATH DI[0] CO[3] (424.0:526.0:526.0) (424.0:526.0:526.0))
+      (IOPATH CI CO[3] (92.0:114.0:114.0) (92.0:114.0:114.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[5\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[6\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[7\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[8\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "CARRY4")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[8\]_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH CI O[0] (150.0:223.0:223.0) (150.0:223.0:223.0))
+      (IOPATH S[0] O[0] (170.0:223.0:223.0) (170.0:223.0:223.0))
+      (IOPATH S[1] O[1] (156.0:205.0:205.0) (156.0:205.0:205.0))
+      (IOPATH S[0] O[1] (304.0:400.0:400.0) (304.0:400.0:400.0))
+      (IOPATH CI O[1] (269.0:334.0:334.0) (269.0:334.0:334.0))
+      (IOPATH DI[0] O[1] (328.0:407.0:407.0) (328.0:407.0:407.0))
+      (IOPATH S[2] O[2] (171.0:226.0:226.0) (171.0:226.0:226.0))
+      (IOPATH S[1] O[2] (424.0:558.0:558.0) (424.0:558.0:558.0))
+      (IOPATH S[0] O[2] (398.0:523.0:523.0) (398.0:523.0:523.0))
+      (IOPATH DI[1] O[2] (431.0:537.0:537.0) (431.0:537.0:537.0))
+      (IOPATH DI[0] O[2] (448.0:556.0:556.0) (448.0:556.0:556.0))
+      (IOPATH CI O[2] (192.0:239.0:239.0) (192.0:239.0:239.0))
+      (IOPATH S[3] O[3] (172.0:227.0:227.0) (172.0:227.0:227.0))
+      (IOPATH S[2] O[3] (251.0:330.0:330.0) (251.0:330.0:330.0))
+      (IOPATH S[1] O[3] (470.0:618.0:618.0) (470.0:618.0:618.0))
+      (IOPATH S[0] O[3] (442.0:582.0:582.0) (442.0:582.0:582.0))
+      (IOPATH DI[2] O[3] (353.0:439.0:439.0) (353.0:439.0:439.0))
+      (IOPATH DI[1] O[3] (481.0:596.0:596.0) (481.0:596.0:596.0))
+      (IOPATH DI[0] O[3] (496.0:615.0:615.0) (496.0:615.0:615.0))
+      (IOPATH CI O[3] (250.0:313.0:313.0) (250.0:313.0:313.0))
+      (IOPATH S[3] CO[3] (289.0:380.0:380.0) (289.0:380.0:380.0))
+      (IOPATH S[2] CO[3] (286.0:376.0:376.0) (286.0:376.0:376.0))
+      (IOPATH S[1] CO[3] (401.0:528.0:528.0) (401.0:528.0:528.0))
+      (IOPATH S[0] CO[3] (386.0:508.0:508.0) (386.0:508.0:508.0))
+      (IOPATH DI[3] CO[3] (310.0:385.0:385.0) (310.0:385.0:385.0))
+      (IOPATH DI[2] CO[3] (321.0:398.0:398.0) (321.0:398.0:398.0))
+      (IOPATH DI[1] CO[3] (409.0:507.0:507.0) (409.0:507.0:507.0))
+      (IOPATH DI[0] CO[3] (424.0:526.0:526.0) (424.0:526.0:526.0))
+      (IOPATH CI CO[3] (92.0:114.0:114.0) (92.0:114.0:114.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[9\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "LUT4")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[0\]_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT3")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[1\]_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I2 O (95.0:118.0:118.0) (95.0:118.0:118.0))
+      (IOPATH I1 O (121.0:150.0:150.0) (121.0:150.0:150.0))
+      (IOPATH I0 O (121.0:150.0:150.0) (121.0:150.0:150.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT4")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[2\]_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT6")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I5 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I4 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT5")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_2)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I4 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT5")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_3)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I4 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT6")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_4)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I5 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I4 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT4")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_5)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT3")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_6)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT4")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_7)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT6")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_8)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I5 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I4 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT6")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_9)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I5 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I4 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I3 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I2 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I1 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+      (IOPATH I0 O (100.0:124.0:124.0) (100.0:124.0:124.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "FDSE")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[0\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge S) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge S) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDSE")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[1\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (244.0:303.0:303.0) (244.0:303.0:303.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-57.0:-46.0:-46.0) (225.0:225.0:225.0))
+      (SETUPHOLD (negedge D) (posedge C) (-57.0:-46.0:-46.0) (225.0:225.0:225.0))
+      (SETUPHOLD (posedge S) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge S) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (PERIOD (posedge C) (870.0:1000.0:1000.0))
+      (WIDTH (posedge C) (435.0:500.0:500.0))
+      (WIDTH (negedge C) (435.0:500.0:500.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDSE")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[2\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (292.0:362.0:362.0) (292.0:362.0:362.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-5.0:-5.0:-5.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-5.0:-5.0:-5.0))
+      (SETUPHOLD (posedge D) (posedge C) (-74.0:-60.0:-60.0) (262.0:262.0:262.0))
+      (SETUPHOLD (negedge D) (posedge C) (-74.0:-60.0:-60.0) (262.0:262.0:262.0))
+      (SETUPHOLD (posedge S) (posedge C) (445.0:552.0:552.0) (-41.0:-41.0:-41.0))
+      (SETUPHOLD (negedge S) (posedge C) (445.0:552.0:552.0) (-41.0:-41.0:-41.0))
+    )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[3\])
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (274.0:340.0:340.0) (274.0:340.0:340.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (negedge CE) (posedge C) (88.0:109.0:109.0) (-9.0:-9.0:-9.0))
+      (SETUPHOLD (posedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (negedge D) (posedge C) (-55.0:-45.0:-45.0) (241.0:241.0:241.0))
+      (SETUPHOLD (posedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+      (SETUPHOLD (negedge R) (posedge C) (345.0:428.0:428.0) (-60.0:-60.0:-60.0))
+    )
+)
+(CELL 
+  (CELLTYPE "BUFG")
+  (INSTANCE clk_IBUF_BUFG_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (91.0:96.0:96.0) (91.0:96.0:96.0))
+    )
+  )
+    (TIMINGCHECK
+      (PERIOD (posedge I) (2155.2:2155.2:2155.2))
+      (PERIOD (negedge I) (2155.2:2155.2:2155.2))
+    )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE clk_IBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (1388.0:1458.4:1458.4) (1388.0:1458.4:1458.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE led_OBUF\[0\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3301.8:3503.8:3503.8) (3301.8:3503.8:3503.8))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE led_OBUF\[10\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3322.2:3524.4:3524.4) (3322.2:3524.4:3524.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE led_OBUF\[11\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3300.8:3502.7:3502.7) (3300.8:3502.7:3502.7))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE led_OBUF\[12\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3315.0:3517.1:3517.1) (3315.0:3517.1:3517.1))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE led_OBUF\[13\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3304.4:3506.4:3506.4) (3304.4:3506.4:3506.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE led_OBUF\[14\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3312.3:3514.4:3514.4) (3312.3:3514.4:3514.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE led_OBUF\[15\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3318.3:3520.4:3520.4) (3318.3:3520.4:3520.4))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE led_OBUF\[1\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3326.5:3528.7:3528.7) (3326.5:3528.7:3528.7))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE led_OBUF\[2\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3298.0:3500.0:3500.0) (3298.0:3500.0:3500.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE led_OBUF\[3\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3306.0:3508.0:3508.0) (3306.0:3508.0:3508.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE led_OBUF\[4\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3305.6:3507.6:3507.6) (3305.6:3507.6:3507.6))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE led_OBUF\[5\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3311.4:3513.5:3513.5) (3311.4:3513.5:3513.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE led_OBUF\[6\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3303.2:3505.2:3505.2) (3303.2:3505.2:3505.2))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE led_OBUF\[7\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3297.7:3499.7:3499.7) (3297.7:3499.7:3499.7))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE led_OBUF\[8\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3301.1:3503.1:3503.1) (3301.1:3503.1:3503.1))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE led_OBUF\[9\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (3305.2:3507.2:3507.2) (3305.2:3507.2:3507.2))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE reset_IBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (1371.1:1441.3:1441.3) (1371.1:1441.3:1441.3))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE switches_inputs_IBUF\[0\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (1382.6:1452.8:1452.8) (1382.6:1452.8:1452.8))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE switches_inputs_IBUF\[10\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (1387.6:1457.9:1457.9) (1387.6:1457.9:1457.9))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE switches_inputs_IBUF\[11\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (1393.4:1463.8:1463.8) (1393.4:1463.8:1463.8))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE switches_inputs_IBUF\[12\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (1398.2:1468.7:1468.7) (1398.2:1468.7:1468.7))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE switches_inputs_IBUF\[13\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (1382.6:1452.9:1452.9) (1382.6:1452.9:1452.9))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE switches_inputs_IBUF\[14\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (1384.9:1455.2:1455.2) (1384.9:1455.2:1455.2))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE switches_inputs_IBUF\[15\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (1385.9:1456.2:1456.2) (1385.9:1456.2:1456.2))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE switches_inputs_IBUF\[1\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (1391.0:1461.3:1461.3) (1391.0:1461.3:1461.3))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE switches_inputs_IBUF\[2\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (1393.4:1463.8:1463.8) (1393.4:1463.8:1463.8))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE switches_inputs_IBUF\[3\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (1378.2:1448.5:1448.5) (1378.2:1448.5:1448.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE switches_inputs_IBUF\[4\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (1380.5:1450.8:1450.8) (1380.5:1450.8:1450.8))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE switches_inputs_IBUF\[5\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (1395.6:1466.1:1466.1) (1395.6:1466.1:1466.1))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE switches_inputs_IBUF\[6\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (1379.5:1449.7:1449.7) (1379.5:1449.7:1449.7))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE switches_inputs_IBUF\[7\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (1388.5:1458.9:1458.9) (1388.5:1458.9:1458.9))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE switches_inputs_IBUF\[8\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (1384.2:1454.5:1454.5) (1384.2:1454.5:1454.5))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE switches_inputs_IBUF\[9\]_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (1381.9:1452.2:1452.2) (1381.9:1452.2:1452.2))
+    )
+  )
+)
+(CELL 
+    (CELLTYPE "lab_1b_top_level")
+    (INSTANCE )
+    (DELAY
+      (ABSOLUTE
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_MUX/time_digit/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_3/I0 (1122.9:1339.9:1339.9) (1122.9:1339.9:1339.9))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_MUX/time_digit/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_4/I0 (656.9:770.9:770.9) (656.9:770.9:770.9))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_MUX/time_digit/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CB_OBUF_inst_i_2/I0 (745.9:881.9:881.9) (745.9:881.9:881.9))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_MUX/time_digit/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CC_OBUF_inst_i_1/I0 (794.2:962.2:962.2) (794.2:962.2:962.2))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_MUX/time_digit/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CE_OBUF_inst_i_1/I0 (786.9:941.9:941.9) (786.9:941.9:941.9))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_MUX/time_digit/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CG_OBUF_inst_i_1/I2 (781.5:937.5:937.5) (781.5:937.5:937.5))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_MUX/time_digit/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_2/I5 (1124.9:1341.9:1341.9) (1124.9:1341.9:1341.9))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_MUX/time_digit/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_5/I5 (746.9:882.9:882.9) (746.9:882.9:882.9))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/AN1_OBUF_inst_i_1/O AN1_OBUF_inst/I (1845.6:2149.6:2149.6) (1845.6:2149.6:2149.6))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/AN2_OBUF_inst_i_1/O AN2_OBUF_inst/I (1785.7:2072.7:2072.7) (1785.7:2072.7:2072.7))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/AN3_OBUF_inst_i_1/O AN3_OBUF_inst/I (1807.6:2104.6:2104.6) (1807.6:2104.6:2104.6))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/AN4_OBUF_inst_i_1/O AN4_OBUF_inst/I (1452.3:1678.3:1678.3) (1452.3:1678.3:1678.3))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_1/O CA_OBUF_inst/I (1880.3:2187.3:2187.3) (1880.3:2187.3:2187.3))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_2/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_1/I0 (521.0:620.0:620.0) (521.0:620.0:620.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_2/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CB_OBUF_inst_i_1/I0 (702.0:845.0:845.0) (702.0:845.0:845.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_2/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CD_OBUF_inst_i_1/I0 (702.0:845.0:845.0) (702.0:845.0:845.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_2/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CF_OBUF_inst_i_1/I0 (521.0:620.0:620.0) (521.0:620.0:620.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_2/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CG_OBUF_inst_i_1/I0 (304.4:350.4:350.4) (304.4:350.4:350.4))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_2/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CC_OBUF_inst_i_1/I1 (522.9:621.9:621.9) (522.9:621.9:621.9))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_2/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CE_OBUF_inst_i_1/I4 (302.2:347.2:347.2) (302.2:347.2:347.2))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_3/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_1/I1 (569.2:682.2:682.2) (569.2:682.2:682.2))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_3/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CB_OBUF_inst_i_1/I1 (566.2:677.2:677.2) (566.2:677.2:677.2))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_3/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CD_OBUF_inst_i_1/I1 (566.2:677.2:677.2) (566.2:677.2:677.2))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_3/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CG_OBUF_inst_i_1/I1 (709.2:855.2:855.2) (709.2:855.2:855.2))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_3/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CE_OBUF_inst_i_1/I2 (708.8:853.8:853.8) (708.8:853.8:853.8))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_3/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CC_OBUF_inst_i_1/I3 (395.9:463.9:463.9) (395.9:463.9:463.9))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_3/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CF_OBUF_inst_i_1/I3 (569.2:682.2:682.2) (569.2:682.2:682.2))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_4/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CE_OBUF_inst_i_1/I1 (555.5:668.5:668.5) (555.5:668.5:668.5))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_4/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_1/I2 (687.6:833.6:833.6) (687.6:833.6:833.6))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_4/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CD_OBUF_inst_i_1/I2 (686.6:831.6:831.6) (686.6:831.6:831.6))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_4/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CF_OBUF_inst_i_1/I2 (687.6:833.6:833.6) (687.6:833.6:833.6))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_4/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CB_OBUF_inst_i_1/I3 (686.6:831.6:831.6) (686.6:831.6:831.6))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_5/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CF_OBUF_inst_i_1/I1 (667.9:810.9:810.9) (667.9:810.9:810.9))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_5/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_1/I3 (667.9:810.9:810.9) (667.9:810.9:810.9))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_5/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CD_OBUF_inst_i_1/I3 (488.9:588.9:588.9) (488.9:588.9:588.9))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_6/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_2/I0 (617.6:738.6:738.6) (617.6:738.6:738.6))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_7/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_3/I1 (675.3:811.3:811.3) (675.3:811.3:811.3))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_8/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_4/I1 (799.3:967.3:967.3) (799.3:967.3:967.3))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_8/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CC_OBUF_inst_i_2/I4 (800.3:968.3:968.3) (800.3:968.3:968.3))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_9/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_5/I0 (927.4:1103.4:1103.4) (927.4:1103.4:1103.4))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_9/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CE_OBUF_inst_i_2/I4 (854.9:1021.9:1021.9) (854.9:1021.9:1021.9))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_9/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CB_OBUF_inst_i_2/I5 (1110.4:1331.4:1331.4) (1110.4:1331.4:1331.4))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CB_OBUF_inst_i_1/O CB_OBUF_inst/I (1570.9:1822.9:1822.9) (1570.9:1822.9:1822.9))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CB_OBUF_inst_i_2/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CB_OBUF_inst_i_1/I2 (507.8:604.8:604.8) (507.8:604.8:604.8))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CB_OBUF_inst_i_2/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CC_OBUF_inst_i_1/I4 (267.7:312.7:312.7) (267.7:312.7:312.7))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CC_OBUF_inst_i_1/O CC_OBUF_inst/I (1442.8:1670.8:1670.8) (1442.8:1670.8:1670.8))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CC_OBUF_inst_i_2/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CC_OBUF_inst_i_1/I2 (844.5:1029.5:1029.5) (844.5:1029.5:1029.5))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CC_OBUF_inst_i_2/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CG_OBUF_inst_i_1/I4 (706.5:857.5:857.5) (706.5:857.5:857.5))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CD_OBUF_inst_i_1/O CD_OBUF_inst/I (1601.0:1866.0:1866.0) (1601.0:1866.0:1866.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CE_OBUF_inst_i_1/O CE_OBUF_inst/I (1607.6:1864.6:1864.6) (1607.6:1864.6:1864.6))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CE_OBUF_inst_i_2/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CE_OBUF_inst_i_1/I3 (667.7:812.7:812.7) (667.7:812.7:812.7))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CE_OBUF_inst_i_2/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CG_OBUF_inst_i_1/I3 (661.3:807.3:807.3) (661.3:807.3:807.3))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CF_OBUF_inst_i_1/O CF_OBUF_inst/I (1590.8:1844.8:1844.8) (1590.8:1844.8:1844.8))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CG_OBUF_inst_i_1/O CG_OBUF_inst/I (1767.5:2054.5:2054.5) (1767.5:2054.5:2054.5))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count\[0\]_i_2/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[0\]_i_1/S[0] (19.0:24.0:24.0) (19.0:24.0:24.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[0\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count\[0\]_i_2/I0 (431.7:521.7:521.7) (431.7:521.7:521.7))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[0\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_8/I1 (545.9:658.9:658.9) (545.9:658.9:658.9))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[0\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_9/I4 (360.9:430.9:430.9) (360.9:430.9:430.9))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[0\]_i_1/CO[3] SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[4\]_i_1/CI (0.0:0.0:0.0) (0.0:0.0:0.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[0\]_i_1/O[3] SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[3\]/D (62.0:76.0:76.0) (62.0:76.0:76.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[0\]_i_1/O[2] SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[2\]/D (62.0:76.0:76.0) (62.0:76.0:76.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[0\]_i_1/O[1] SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[1\]/D (62.0:76.0:76.0) (62.0:76.0:76.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[0\]_i_1/O[0] SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[0\]/D (62.0:76.0:76.0) (62.0:76.0:76.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[10\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_3/I0 (675.0:820.0:820.0) (675.0:820.0:820.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[10\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_6/I1 (676.0:822.0:822.0) (676.0:822.0:822.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[10\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[8\]_i_1/S[2] (425.6:508.6:508.6) (425.6:508.6:508.6))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[11\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_3/I3 (346.9:415.9:415.9) (346.9:415.9:415.9))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[11\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[8\]_i_1/S[3] (541.7:648.7:648.7) (541.7:648.7:648.7))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[12\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_5/I2 (583.5:693.5:693.5) (583.5:693.5:693.5))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[12\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_4/I4 (356.5:411.5:411.5) (356.5:411.5:411.5))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[12\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[12\]_i_1/S[0] (546.3:654.3:654.3) (546.3:654.3:654.3))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[12\]_i_1/CO[3] SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[16\]_i_1/CI (0.0:0.0:0.0) (0.0:0.0:0.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[12\]_i_1/O[3] SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[15\]/D (62.0:76.0:76.0) (62.0:76.0:76.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[12\]_i_1/O[2] SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[14\]/D (62.0:76.0:76.0) (62.0:76.0:76.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[12\]_i_1/O[1] SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[13\]/D (62.0:76.0:76.0) (62.0:76.0:76.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[12\]_i_1/O[0] SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[12\]/D (62.0:76.0:76.0) (62.0:76.0:76.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[13\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_7/I1 (365.8:443.8:443.8) (365.8:443.8:443.8))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[13\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[12\]_i_1/S[1] (625.9:739.9:739.9) (625.9:739.9:739.9))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[14\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_3/I4 (513.9:614.9:614.9) (513.9:614.9:614.9))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[14\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[12\]_i_1/S[2] (425.7:508.7:508.7) (425.7:508.7:508.7))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[15\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_5/I3 (571.9:685.9:685.9) (571.9:685.9:685.9))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[15\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_4/I5 (709.9:857.9:857.9) (709.9:857.9:857.9))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[15\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[12\]_i_1/S[3] (623.8:730.8:730.8) (623.8:730.8:730.8))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[16\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_7/I3 (301.1:356.1:356.1) (301.1:356.1:356.1))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[16\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[16\]_i_1/S[0] (546.3:654.3:654.3) (546.3:654.3:654.3))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[16\]_i_1/O[0] SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[16\]/D (62.0:76.0:76.0) (62.0:76.0:76.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[1\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_7/I0 (724.5:862.5:862.5) (724.5:862.5:862.5))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[1\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_8/I0 (487.1:589.1:589.1) (487.1:589.1:589.1))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[1\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[0\]_i_1/S[1] (551.8:657.8:657.8) (551.8:657.8:657.8))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[2\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_7/I2 (812.8:980.8:980.8) (812.8:980.8:980.8))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[2\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[0\]_i_1/S[2] (425.6:508.6:508.6) (425.6:508.6:508.6))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[3\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_9/I2 (675.2:820.2:820.2) (675.2:820.2:820.2))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[3\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_8/I4 (676.2:821.2:821.2) (676.2:821.2:821.2))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[3\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[0\]_i_1/S[3] (806.7:924.7:924.7) (806.7:924.7:924.7))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[4\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_3/I1 (568.9:692.9:692.9) (568.9:692.9:692.9))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[4\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_8/I5 (242.9:287.9:287.9) (242.9:287.9:287.9))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[4\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[4\]_i_1/S[0] (814.5:933.5:933.5) (814.5:933.5:933.5))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[4\]_i_1/CO[3] SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[8\]_i_1/CI (0.0:0.0:0.0) (0.0:0.0:0.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[4\]_i_1/O[3] SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[7\]/D (62.0:76.0:76.0) (62.0:76.0:76.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[4\]_i_1/O[2] SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[6\]/D (62.0:76.0:76.0) (62.0:76.0:76.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[4\]_i_1/O[1] SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[5\]/D (62.0:76.0:76.0) (62.0:76.0:76.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[4\]_i_1/O[0] SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[4\]/D (62.0:76.0:76.0) (62.0:76.0:76.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[5\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_6/I0 (152.9:177.9:177.9) (152.9:177.9:177.9))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[5\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_3/I2 (148.9:172.9:172.9) (148.9:172.9:172.9))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[5\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[4\]_i_1/S[1] (593.1:707.1:707.1) (593.1:707.1:707.1))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[6\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_8/I2 (154.0:179.0:179.0) (154.0:179.0:179.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[6\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_9/I3 (152.0:176.0:176.0) (152.0:176.0:176.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[6\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[4\]_i_1/S[2] (435.7:518.7:518.7) (435.7:518.7:518.7))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[7\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_5/I0 (688.3:834.3:834.3) (688.3:834.3:834.3))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[7\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_4/I2 (686.3:831.3:831.3) (686.3:831.3:831.3))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[7\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_8/I3 (568.2:692.2:692.2) (568.2:692.2:692.2))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[7\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[4\]_i_1/S[3] (817.8:935.8:935.8) (817.8:935.8:935.8))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[8\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_5/I1 (572.9:697.9:697.9) (572.9:697.9:697.9))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[8\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_4/I3 (244.9:291.9:291.9) (244.9:291.9:291.9))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[8\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[8\]_i_1/S[0] (557.7:665.7:665.7) (557.7:665.7:665.7))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[8\]_i_1/CO[3] SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[12\]_i_1/CI (9.0:9.0:9.0) (9.0:9.0:9.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[8\]_i_1/O[3] SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[11\]/D (62.0:76.0:76.0) (62.0:76.0:76.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[8\]_i_1/O[2] SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[10\]/D (62.0:76.0:76.0) (62.0:76.0:76.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[8\]_i_1/O[1] SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[9\]/D (62.0:76.0:76.0) (62.0:76.0:76.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[8\]_i_1/O[0] SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[8\]/D (62.0:76.0:76.0) (62.0:76.0:76.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[9\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_6/I2 (399.0:476.0:476.0) (399.0:476.0:476.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[9\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_9/I5 (725.0:881.0:881.0) (725.0:881.0:881.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[9\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[8\]_i_1/S[1] (593.8:707.8:707.8) (593.8:707.8:707.8))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[0\]_i_1/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[0\]/D (88.0:109.0:109.0) (88.0:109.0:109.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[1\]_i_1/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[1\]/D (52.0:64.0:64.0) (52.0:64.0:64.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[2\]_i_1/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[2\]/D (88.0:109.0:109.0) (88.0:109.0:109.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_1/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[3\]/D (88.0:109.0:109.0) (88.0:109.0:109.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_2/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[1\]_i_1/I2 (384.4:452.4:452.4) (384.4:452.4:452.4))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_2/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[2\]_i_1/I2 (675.0:819.0:819.0) (675.0:819.0:819.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_2/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_1/I2 (154.0:179.0:179.0) (154.0:179.0:179.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_2/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[0\]_i_1/I3 (384.4:452.4:452.4) (384.4:452.4:452.4))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_3/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_1/I4 (342.4:410.4:410.4) (342.4:410.4:410.4))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_3/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_2/I4 (251.4:298.4:298.4) (251.4:298.4:298.4))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_4/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_1/I5 (353.9:432.9:432.9) (353.9:432.9:432.9))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_5/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_2/I0 (216.9:262.9:262.9) (216.9:262.9:262.9))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_6/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_2/I1 (526.0:641.0:641.0) (526.0:641.0:641.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_7/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_4/I1 (510.3:611.3:611.3) (510.3:611.3:611.3))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_7/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_2/I2 (517.3:619.3:619.3) (517.3:619.3:619.3))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_8/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_2/I3 (660.3:807.3:807.3) (660.3:807.3:807.3))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_9/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_4/I0 (523.0:638.0:638.0) (523.0:638.0:638.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[0\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_MUX/time_digit/I0 (950.0:1137.0:1137.0) (950.0:1137.0:1137.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[0\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/AN1_OBUF_inst_i_1/I0 (921.4:1077.4:1077.4) (921.4:1077.4:1077.4))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[0\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CC_OBUF_inst_i_2/I0 (807.1:942.1:942.1) (807.1:942.1:942.1))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[0\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CE_OBUF_inst_i_2/I0 (921.4:1077.4:1077.4) (921.4:1077.4:1077.4))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[0\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[1\]_i_1/I0 (415.2:505.2:505.2) (415.2:505.2:505.2))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[0\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[2\]_i_1/I0 (714.5:862.5:862.5) (714.5:862.5:862.5))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[0\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CB_OBUF_inst_i_2/I1 (849.9:1007.9:1007.9) (849.9:1007.9:1007.9))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[0\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[0\]_i_1/I1 (415.2:505.2:505.2) (415.2:505.2:505.2))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[0\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_9/I1 (1081.8:1284.8:1284.8) (1081.8:1284.8:1284.8))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[0\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_2/I4 (1129.1:1342.1:1342.1) (1129.1:1342.1:1342.1))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[0\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_5/I4 (853.9:1012.9:1012.9) (853.9:1012.9:1012.9))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[0\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_3/I5 (1122.1:1334.1:1334.1) (1122.1:1334.1:1334.1))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[0\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_4/I5 (944.1:1112.1:1112.1) (944.1:1112.1:1112.1))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[1\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_MUX/time_digit/I1 (825.8:983.8:983.8) (825.8:983.8:983.8))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[1\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/AN2_OBUF_inst_i_1/I0 (1199.1:1424.1:1424.1) (1199.1:1424.1:1424.1))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[1\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_9/I0 (905.8:1084.8:1084.8) (905.8:1084.8:1084.8))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[1\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[1\]_i_1/I1 (1094.2:1297.2:1297.2) (1094.2:1297.2:1297.2))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[1\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[2\]_i_1/I1 (803.6:964.6:964.6) (803.6:964.6:964.6))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[1\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_2/I2 (1069.4:1276.4:1276.4) (1069.4:1276.4:1276.4))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[1\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_5/I2 (1234.4:1480.4:1480.4) (1234.4:1480.4:1480.4))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[1\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CC_OBUF_inst_i_2/I2 (1199.1:1424.1:1424.1) (1199.1:1424.1:1424.1))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[1\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CE_OBUF_inst_i_2/I2 (1074.1:1278.1:1278.1) (1074.1:1278.1:1278.1))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[1\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[0\]_i_1/I2 (1094.2:1297.2:1297.2) (1094.2:1297.2:1297.2))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[1\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_3/I3 (836.4:986.4:986.4) (836.4:986.4:986.4))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[1\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_4/I3 (1063.1:1256.1:1256.1) (1063.1:1256.1:1256.1))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[1\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CB_OBUF_inst_i_2/I3 (829.4:978.4:978.4) (829.4:978.4:978.4))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[2\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_MUX/time_digit/I2 (308.4:354.4:354.4) (308.4:354.4:354.4))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[2\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/AN3_OBUF_inst_i_1/I0 (449.4:545.4:545.4) (449.4:545.4:545.4))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[2\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_6/I0 (828.0:978.0:978.0) (828.0:978.0:978.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[2\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_7/I1 (826.0:975.0:975.0) (826.0:975.0:975.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[2\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_8/I1 (526.9:625.9:625.9) (526.9:625.9:625.9))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[2\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_9/I1 (594.0:687.0:687.0) (594.0:687.0:687.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[2\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_1/I1 (670.4:813.4:813.4) (670.4:813.4:813.4))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[2\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[2\]_i_1/I3 (449.4:545.4:545.4) (449.4:545.4:545.4))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[3\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_MUX/time_digit/I3 (584.0:698.0:698.0) (584.0:698.0:698.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[3\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/AN4_OBUF_inst_i_1/I0 (909.7:1075.7:1075.7) (909.7:1075.7:1075.7))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[3\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[0\]_i_1/I0 (851.0:1017.0:1017.0) (851.0:1017.0:1017.0))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[3\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_6/I2 (909.7:1075.7:1075.7) (909.7:1075.7:1075.7))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[3\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_7/I3 (907.7:1073.7:1073.7) (907.7:1073.7:1073.7))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[3\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_8/I3 (574.1:690.1:690.1) (574.1:690.1:690.1))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[3\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_9/I3 (1029.7:1224.7:1224.7) (1029.7:1224.7:1224.7))
+      (INTERCONNECT SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[3\]/Q SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_1/I3 (427.5:517.5:517.5) (427.5:517.5:517.5))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[0\]/C (1597.4:1736.4:1736.4) (1597.4:1736.4:1736.4))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[10\]/C (1594.4:1733.4:1733.4) (1594.4:1733.4:1733.4))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[11\]/C (1594.4:1733.4:1733.4) (1594.4:1733.4:1733.4))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[12\]/C (1594.4:1733.4:1733.4) (1594.4:1733.4:1733.4))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[13\]/C (1594.4:1733.4:1733.4) (1594.4:1733.4:1733.4))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[14\]/C (1594.4:1733.4:1733.4) (1594.4:1733.4:1733.4))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[15\]/C (1594.4:1733.4:1733.4) (1594.4:1733.4:1733.4))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[16\]/C (1596.4:1735.4:1735.4) (1596.4:1735.4:1735.4))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[1\]/C (1597.4:1736.4:1736.4) (1597.4:1736.4:1736.4))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[2\]/C (1597.4:1736.4:1736.4) (1597.4:1736.4:1736.4))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[3\]/C (1597.4:1736.4:1736.4) (1597.4:1736.4:1736.4))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[4\]/C (1596.4:1735.4:1735.4) (1596.4:1735.4:1735.4))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[5\]/C (1596.4:1735.4:1735.4) (1596.4:1735.4:1735.4))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[6\]/C (1596.4:1735.4:1735.4) (1596.4:1735.4:1735.4))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[7\]/C (1596.4:1735.4:1735.4) (1596.4:1735.4:1735.4))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[8\]/C (1594.4:1733.4:1733.4) (1594.4:1733.4:1733.4))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[9\]/C (1594.4:1733.4:1733.4) (1594.4:1733.4:1733.4))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[0\]/C (1594.4:1733.4:1733.4) (1594.4:1733.4:1733.4))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[1\]/C (1594.4:1733.4:1733.4) (1594.4:1733.4:1733.4))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[2\]/C (1627.4:1773.4:1773.4) (1627.4:1773.4:1773.4))
+      (INTERCONNECT clk_IBUF_BUFG_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[3\]/C (1594.4:1733.4:1733.4) (1594.4:1733.4:1733.4))
+      (INTERCONNECT clk_IBUF_inst/O clk_IBUF_BUFG_inst/I (1862.0:1966.5:1966.5) (1862.0:1966.5:1966.5))
+      (INTERCONNECT reset_IBUF_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q\[3\]_i_1/I0 (4098.1:4743.1:4743.1) (4098.1:4743.1:4743.1))
+      (INTERCONNECT reset_IBUF_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[0\]/R (2943.9:3407.9:3407.9) (2943.9:3407.9:3407.9))
+      (INTERCONNECT reset_IBUF_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[10\]/R (3804.5:4376.5:4376.5) (3804.5:4376.5:4376.5))
+      (INTERCONNECT reset_IBUF_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[11\]/R (3804.5:4376.5:4376.5) (3804.5:4376.5:4376.5))
+      (INTERCONNECT reset_IBUF_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[12\]/R (3338.6:3866.6:3866.6) (3338.6:3866.6:3866.6))
+      (INTERCONNECT reset_IBUF_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[13\]/R (3338.6:3866.6:3866.6) (3338.6:3866.6:3866.6))
+      (INTERCONNECT reset_IBUF_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[14\]/R (3338.6:3866.6:3866.6) (3338.6:3866.6:3866.6))
+      (INTERCONNECT reset_IBUF_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[15\]/R (3338.6:3866.6:3866.6) (3338.6:3866.6:3866.6))
+      (INTERCONNECT reset_IBUF_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[16\]/R (3440.1:3991.1:3991.1) (3440.1:3991.1:3991.1))
+      (INTERCONNECT reset_IBUF_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[1\]/R (2943.9:3407.9:3407.9) (2943.9:3407.9:3407.9))
+      (INTERCONNECT reset_IBUF_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[2\]/R (2943.9:3407.9:3407.9) (2943.9:3407.9:3407.9))
+      (INTERCONNECT reset_IBUF_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[3\]/R (2943.9:3407.9:3407.9) (2943.9:3407.9:3407.9))
+      (INTERCONNECT reset_IBUF_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[4\]/R (3135.2:3637.2:3637.2) (3135.2:3637.2:3637.2))
+      (INTERCONNECT reset_IBUF_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[5\]/R (3135.2:3637.2:3637.2) (3135.2:3637.2:3637.2))
+      (INTERCONNECT reset_IBUF_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[6\]/R (3135.2:3637.2:3637.2) (3135.2:3637.2:3637.2))
+      (INTERCONNECT reset_IBUF_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[7\]/R (3135.2:3637.2:3637.2) (3135.2:3637.2:3637.2))
+      (INTERCONNECT reset_IBUF_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[8\]/R (3804.5:4376.5:4376.5) (3804.5:4376.5:4376.5))
+      (INTERCONNECT reset_IBUF_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/count_reg\[9\]/R (3804.5:4376.5:4376.5) (3804.5:4376.5:4376.5))
+      (INTERCONNECT reset_IBUF_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[0\]/S (3334.2:3862.2:3862.2) (3334.2:3862.2:3862.2))
+      (INTERCONNECT reset_IBUF_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[1\]/S (3334.2:3862.2:3862.2) (3334.2:3862.2:3862.2))
+      (INTERCONNECT reset_IBUF_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/q_reg\[2\]/S (3055.3:3540.3:3540.3) (3055.3:3540.3:3540.3))
+      (INTERCONNECT switches_inputs_IBUF\[0\]_inst/O led_OBUF\[0\]_inst/I (1840.1:2152.1:2152.1) (1840.1:2152.1:2152.1))
+      (INTERCONNECT switches_inputs_IBUF\[0\]_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CC_OBUF_inst_i_2/I1 (3068.8:3585.8:3585.8) (3068.8:3585.8:3585.8))
+      (INTERCONNECT switches_inputs_IBUF\[0\]_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_4/I4 (3069.8:3587.8:3587.8) (3069.8:3587.8:3587.8))
+      (INTERCONNECT switches_inputs_IBUF\[10\]_inst/O led_OBUF\[10\]_inst/I (1888.7:2206.7:2206.7) (1888.7:2206.7:2206.7))
+      (INTERCONNECT switches_inputs_IBUF\[10\]_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_7/I0 (1415.5:1669.5:1669.5) (1415.5:1669.5:1669.5))
+      (INTERCONNECT switches_inputs_IBUF\[11\]_inst/O led_OBUF\[11\]_inst/I (2063.7:2412.7:2412.7) (2063.7:2412.7:2412.7))
+      (INTERCONNECT switches_inputs_IBUF\[11\]_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_6/I1 (1711.9:2035.9:2035.9) (1711.9:2035.9:2035.9))
+      (INTERCONNECT switches_inputs_IBUF\[12\]_inst/O led_OBUF\[12\]_inst/I (2646.4:3109.4:3109.4) (2646.4:3109.4:3109.4))
+      (INTERCONNECT switches_inputs_IBUF\[12\]_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_8/I2 (1260.8:1477.8:1477.8) (1260.8:1477.8:1477.8))
+      (INTERCONNECT switches_inputs_IBUF\[13\]_inst/O led_OBUF\[13\]_inst/I (2460.1:2887.1:2887.1) (2460.1:2887.1:2887.1))
+      (INTERCONNECT switches_inputs_IBUF\[13\]_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_9/I2 (1371.2:1625.2:1625.2) (1371.2:1625.2:1625.2))
+      (INTERCONNECT switches_inputs_IBUF\[14\]_inst/O led_OBUF\[14\]_inst/I (2048.3:2397.3:2397.3) (2048.3:2397.3:2397.3))
+      (INTERCONNECT switches_inputs_IBUF\[14\]_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_7/I2 (1550.7:1848.7:1848.7) (1550.7:1848.7:1848.7))
+      (INTERCONNECT switches_inputs_IBUF\[15\]_inst/O led_OBUF\[15\]_inst/I (2611.6:3065.6:3065.6) (2611.6:3065.6:3065.6))
+      (INTERCONNECT switches_inputs_IBUF\[15\]_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_6/I3 (1727.1:2059.1:2059.1) (1727.1:2059.1:2059.1))
+      (INTERCONNECT switches_inputs_IBUF\[1\]_inst/O led_OBUF\[1\]_inst/I (2523.8:2955.8:2955.8) (2523.8:2955.8:2955.8))
+      (INTERCONNECT switches_inputs_IBUF\[1\]_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CE_OBUF_inst_i_2/I1 (3346.9:3909.9:3909.9) (3346.9:3909.9:3909.9))
+      (INTERCONNECT switches_inputs_IBUF\[1\]_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CB_OBUF_inst_i_2/I2 (3715.2:4345.2:4345.2) (3715.2:4345.2:4345.2))
+      (INTERCONNECT switches_inputs_IBUF\[1\]_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_5/I3 (3711.2:4340.2:4340.2) (3711.2:4340.2:4340.2))
+      (INTERCONNECT switches_inputs_IBUF\[2\]_inst/O led_OBUF\[2\]_inst/I (1878.8:2194.8:2194.8) (1878.8:2194.8:2194.8))
+      (INTERCONNECT switches_inputs_IBUF\[2\]_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_3/I4 (2721.9:3159.9:3159.9) (2721.9:3159.9:3159.9))
+      (INTERCONNECT switches_inputs_IBUF\[3\]_inst/O led_OBUF\[3\]_inst/I (1878.8:2194.8:2194.8) (1878.8:2194.8:2194.8))
+      (INTERCONNECT switches_inputs_IBUF\[3\]_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_2/I3 (2709.5:3145.5:3145.5) (2709.5:3145.5:3145.5))
+      (INTERCONNECT switches_inputs_IBUF\[4\]_inst/O led_OBUF\[4\]_inst/I (1881.8:2199.8:2199.8) (1881.8:2199.8:2199.8))
+      (INTERCONNECT switches_inputs_IBUF\[4\]_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_4/I2 (3059.3:3563.3:3563.3) (3059.3:3563.3:3563.3))
+      (INTERCONNECT switches_inputs_IBUF\[4\]_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CC_OBUF_inst_i_2/I3 (3056.3:3558.3:3558.3) (3056.3:3558.3:3558.3))
+      (INTERCONNECT switches_inputs_IBUF\[5\]_inst/O led_OBUF\[5\]_inst/I (1788.9:2090.9:2090.9) (1788.9:2090.9:2090.9))
+      (INTERCONNECT switches_inputs_IBUF\[5\]_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_5/I1 (2648.7:3059.7:3059.7) (2648.7:3059.7:3059.7))
+      (INTERCONNECT switches_inputs_IBUF\[5\]_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CE_OBUF_inst_i_2/I3 (3066.1:3575.1:3575.1) (3066.1:3575.1:3575.1))
+      (INTERCONNECT switches_inputs_IBUF\[5\]_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CB_OBUF_inst_i_2/I4 (3031.5:3526.5:3526.5) (3031.5:3526.5:3526.5))
+      (INTERCONNECT switches_inputs_IBUF\[6\]_inst/O led_OBUF\[6\]_inst/I (1849.3:2160.3:2160.3) (1849.3:2160.3:2160.3))
+      (INTERCONNECT switches_inputs_IBUF\[6\]_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_3/I2 (2799.1:3292.1:3292.1) (2799.1:3292.1:3292.1))
+      (INTERCONNECT switches_inputs_IBUF\[7\]_inst/O led_OBUF\[7\]_inst/I (1842.3:2152.3:2152.3) (1842.3:2152.3:2152.3))
+      (INTERCONNECT switches_inputs_IBUF\[7\]_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_2/I1 (3403.6:3983.6:3983.6) (3403.6:3983.6:3983.6))
+      (INTERCONNECT switches_inputs_IBUF\[8\]_inst/O led_OBUF\[8\]_inst/I (4490.2:5197.2:5197.2) (4490.2:5197.2:5197.2))
+      (INTERCONNECT switches_inputs_IBUF\[8\]_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_8/I0 (1587.8:1883.8:1883.8) (1587.8:1883.8:1883.8))
+      (INTERCONNECT switches_inputs_IBUF\[9\]_inst/O led_OBUF\[9\]_inst/I (1842.2:2152.2:2152.2) (1842.2:2152.2:2152.2))
+      (INTERCONNECT switches_inputs_IBUF\[9\]_inst/O SEVEN_SEGMENT_DISPLAY/DIGIT_SELECTOR/CA_OBUF_inst_i_9/I0 (1557.5:1845.5:1845.5) (1557.5:1845.5:1845.5))
+)

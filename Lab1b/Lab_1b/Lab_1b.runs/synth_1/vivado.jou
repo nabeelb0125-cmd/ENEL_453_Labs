@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Tue Sep  8 11:28:05 2026
+# Process ID         : 31488
+# Current directory  : C:/Lab_1b/Lab_1b/Lab_1b.runs/synth_1
+# Command line       : vivado.exe -log lab_1b_top_level.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source lab_1b_top_level.tcl
+# Log file           : C:/Lab_1b/Lab_1b/Lab_1b.runs/synth_1/lab_1b_top_level.vds
+# Journal file       : C:/Lab_1b/Lab_1b/Lab_1b.runs/synth_1\vivado.jou
+# Running On         : DiabloMobDragon
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+# CPU Frequency      : 2803 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 16860 MB
+# Swap memory        : 29665 MB
+# Total Virtual      : 46526 MB
+# Available Virtual  : 14304 MB
+#-----------------------------------------------------------
+source lab_1b_top_level.tcl -notrace
